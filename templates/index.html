@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .error {
+            color: red;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Energy Consumption Prediction</h1>
+        <form id="prediction-form">
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select class="form-control" id="country" name="country">
+                    {% for country in countries %}
+                        <option value="{{ country }}">{{ country }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="month">Month</label>
+                <select class="form-control" id="month" name="month">
+                    {% for month in months %}
+                        <option value="{{ month }}">{{ month }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <select class="form-control" id="year" name="year">
+                    {% for year in years %}
+                        <option value="{{ year }}">{{ year }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="num_appliances">Number of Appliances</label>
+                <input type="number" class="form-control" id="num_appliances" name="num_appliances" min="1" max="10">
+            </div>
+            <div id="appliances"></div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+        <div class="result" id="result"></div>
+        <div class="error" id="error"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#num_appliances').on('input', function () {
+                var num_appliances = $(this).val();
+                $('#appliances').empty();
+                for (var i = 1; i <= num_appliances; i++) {
+                    $('#appliances').append(
+                        '<div class="form-group">' +
+                        '<label for="appliance' + i + '">Appliance ' + i + '</label>' +
+                        '<select class="form-control" id="appliance' + i + '" name="appliance' + i + '">' +
+                        '{% for appliance in appliances %}' +
+                        '<option value="{{ appliance }}">{{ appliance }}</option>' +
+                        '{% endfor %}' +
+                        '</select>' +
+                        '</div>'
+                    );
+                }
+            });
+
+            $('#prediction-form').on('submit', function (e) {
+                e.preventDefault();
+                var formData = $(this).serializeArray();
+                var data = {};
+                formData.forEach(function (item) {
+                    data[item.name] = item.value;
+                });
+
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                        $('#result').html(
+                            '<h3>Predicted Energy Consumption: ' + response.prediction + ' kWh</h3>' +
+                            '<h4>Alternate Energy Sources:</h4>' +
+                            '<ul>' +
+                            response.alternate_sources.map(function (source) {
+                                return '<li>' + source['Energy Source'] + ' - Avg Installation Cost: $' + source['Avg Installation Cost ($)'] + '</li>';
+                            }).join('') +
+                            '</ul>' +
+                            '<h4>Government Schemes:</h4>' +
+                            '<ul>' +
+                            response.government_schemes.map(function (scheme) {
+                                return '<li>' + scheme['Scheme/Subsidy'] + ' - Specific Source: ' + scheme['Specific Source'] + '</li>';
+                            }).join('') +
+                            '</ul>'
+                        );
+                        $('#error').empty();
+                    },
+                    error: function (response) {
+                        $('#result').empty();
+                        $('#error').html('<p>' + response.responseJSON.error + '</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
