@@ -4,9 +4,12 @@ import pickle
 
 app = Flask(__name__)
 
-# Load the model and datasets
+# Load the model, scaler, and feature names
 model = pickle.load(open('model.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
+with open('columns.pkl', 'rb') as feature_file:
+    feature_names = pickle.load(feature_file)
+
 energy = pd.read_csv("Household_energy_data.csv")
 schemes = pd.read_csv("govt schemes.csv")
 alt_energy = pd.read_csv("alternate_energy_sources.csv")
@@ -32,7 +35,7 @@ def predict_energy_consumption(country, month, year, appliances):
             'Appliance': [appliance]
         })
         input_data = pd.get_dummies(input_data, columns=['Country', 'Appliance', 'Month', 'Year'])
-        input_data = input_data.reindex(columns=model.feature_names_in_, fill_value=0)
+        input_data = input_data.reindex(columns=feature_names, fill_value=0)
         input_data_scaled = scaler.transform(input_data)
         prediction = model.predict(input_data_scaled)
         total_prediction += prediction[0]
