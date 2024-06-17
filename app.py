@@ -19,7 +19,7 @@ energy['Appliance'] = energy['Appliance'].str.strip().str.capitalize()
 countries = list(energy['Country'].unique())
 appliances = list(energy['Appliance'].unique())
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-years = [str(year) for year in range(2010, 2024)]
+years = [str(year) for year in range(2010, 2101)]
 
 # Function to predict energy consumption
 def predict_energy_consumption(country, month, year, appliances):
@@ -60,8 +60,8 @@ def predict():
         if not month or month not in valid_months:
             return jsonify({'error': 'Invalid month. Please enter a valid month abbreviation (e.g., Jan).'}), 400
 
-        if not year.isdigit() or not (2010 <= int(year) <= 2023):
-            return jsonify({'error': 'Invalid year. Please enter a valid year (between 2010 and 2023).'}), 400
+        if not year.isdigit() or not (2010 <= int(year) <= 2100):
+            return jsonify({'error': 'Invalid year. Please enter a valid year (between 2010 and 2100).'}), 400
 
         if num_appliances <= 0:
             return jsonify({'error': 'Number of appliances must be greater than zero.'}), 400
