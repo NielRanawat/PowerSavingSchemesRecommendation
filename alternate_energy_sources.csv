@@ -1,0 +1,801 @@
+Country,Consumption Range,Min Consumption (kWh),Max Consumption (kWh),Energy Source,Avg Installation Cost ($),Avg Cost per kWh ($),Avg Consumption (kWh)
+USA,Low,100,200,Solar Power,18750.0,0.08,150.0
+USA,Low,100,200,Wind Power,5750.0,0.04,150.0
+USA,Low,100,200,Hydropower,3000.0,0.055,150.0
+USA,Low,100,200,Biomass,3500.0,0.1,150.0
+USA,Medium,200,500,Solar Power,18750.0,0.08,350.0
+USA,Medium,200,500,Wind Power,5750.0,0.04,350.0
+USA,Medium,200,500,Hydropower,3000.0,0.055,350.0
+USA,Medium,200,500,Biomass,3500.0,0.1,350.0
+USA,High,500,1000,Solar Power,18750.0,0.08,750.0
+USA,High,500,1000,Wind Power,5750.0,0.04,750.0
+USA,High,500,1000,Hydropower,3000.0,0.055,750.0
+USA,High,500,1000,Biomass,3500.0,0.1,750.0
+USA,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+USA,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+USA,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+USA,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Canada,Low,100,200,Solar Power,18750.0,0.08,150.0
+Canada,Low,100,200,Wind Power,5750.0,0.04,150.0
+Canada,Low,100,200,Hydropower,3000.0,0.055,150.0
+Canada,Low,100,200,Biomass,3500.0,0.1,150.0
+Canada,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Canada,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Canada,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Canada,Medium,200,500,Biomass,3500.0,0.1,350.0
+Canada,High,500,1000,Solar Power,18750.0,0.08,750.0
+Canada,High,500,1000,Wind Power,5750.0,0.04,750.0
+Canada,High,500,1000,Hydropower,3000.0,0.055,750.0
+Canada,High,500,1000,Biomass,3500.0,0.1,750.0
+Canada,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Canada,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Canada,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Canada,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+UK,Low,100,200,Solar Power,18750.0,0.08,150.0
+UK,Low,100,200,Wind Power,5750.0,0.04,150.0
+UK,Low,100,200,Hydropower,3000.0,0.055,150.0
+UK,Low,100,200,Biomass,3500.0,0.1,150.0
+UK,Medium,200,500,Solar Power,18750.0,0.08,350.0
+UK,Medium,200,500,Wind Power,5750.0,0.04,350.0
+UK,Medium,200,500,Hydropower,3000.0,0.055,350.0
+UK,Medium,200,500,Biomass,3500.0,0.1,350.0
+UK,High,500,1000,Solar Power,18750.0,0.08,750.0
+UK,High,500,1000,Wind Power,5750.0,0.04,750.0
+UK,High,500,1000,Hydropower,3000.0,0.055,750.0
+UK,High,500,1000,Biomass,3500.0,0.1,750.0
+UK,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+UK,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+UK,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+UK,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Germany,Low,100,200,Solar Power,18750.0,0.08,150.0
+Germany,Low,100,200,Wind Power,5750.0,0.04,150.0
+Germany,Low,100,200,Hydropower,3000.0,0.055,150.0
+Germany,Low,100,200,Biomass,3500.0,0.1,150.0
+Germany,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Germany,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Germany,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Germany,Medium,200,500,Biomass,3500.0,0.1,350.0
+Germany,High,500,1000,Solar Power,18750.0,0.08,750.0
+Germany,High,500,1000,Wind Power,5750.0,0.04,750.0
+Germany,High,500,1000,Hydropower,3000.0,0.055,750.0
+Germany,High,500,1000,Biomass,3500.0,0.1,750.0
+Germany,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Germany,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Germany,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Germany,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Australia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Australia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Australia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Australia,Low,100,200,Biomass,3500.0,0.1,150.0
+Australia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Australia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Australia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Australia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Australia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Australia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Australia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Australia,High,500,1000,Biomass,3500.0,0.1,750.0
+Australia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Australia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Australia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Australia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+France,Low,100,200,Solar Power,18750.0,0.08,150.0
+France,Low,100,200,Wind Power,5750.0,0.04,150.0
+France,Low,100,200,Hydropower,3000.0,0.055,150.0
+France,Low,100,200,Biomass,3500.0,0.1,150.0
+France,Medium,200,500,Solar Power,18750.0,0.08,350.0
+France,Medium,200,500,Wind Power,5750.0,0.04,350.0
+France,Medium,200,500,Hydropower,3000.0,0.055,350.0
+France,Medium,200,500,Biomass,3500.0,0.1,350.0
+France,High,500,1000,Solar Power,18750.0,0.08,750.0
+France,High,500,1000,Wind Power,5750.0,0.04,750.0
+France,High,500,1000,Hydropower,3000.0,0.055,750.0
+France,High,500,1000,Biomass,3500.0,0.1,750.0
+France,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+France,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+France,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+France,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+India,Low,100,200,Solar Power,18750.0,0.08,150.0
+India,Low,100,200,Wind Power,5750.0,0.04,150.0
+India,Low,100,200,Hydropower,3000.0,0.055,150.0
+India,Low,100,200,Biomass,3500.0,0.1,150.0
+India,Medium,200,500,Solar Power,18750.0,0.08,350.0
+India,Medium,200,500,Wind Power,5750.0,0.04,350.0
+India,Medium,200,500,Hydropower,3000.0,0.055,350.0
+India,Medium,200,500,Biomass,3500.0,0.1,350.0
+India,High,500,1000,Solar Power,18750.0,0.08,750.0
+India,High,500,1000,Wind Power,5750.0,0.04,750.0
+India,High,500,1000,Hydropower,3000.0,0.055,750.0
+India,High,500,1000,Biomass,3500.0,0.1,750.0
+India,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+India,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+India,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+India,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+China,Low,100,200,Solar Power,18750.0,0.08,150.0
+China,Low,100,200,Wind Power,5750.0,0.04,150.0
+China,Low,100,200,Hydropower,3000.0,0.055,150.0
+China,Low,100,200,Biomass,3500.0,0.1,150.0
+China,Medium,200,500,Solar Power,18750.0,0.08,350.0
+China,Medium,200,500,Wind Power,5750.0,0.04,350.0
+China,Medium,200,500,Hydropower,3000.0,0.055,350.0
+China,Medium,200,500,Biomass,3500.0,0.1,350.0
+China,High,500,1000,Solar Power,18750.0,0.08,750.0
+China,High,500,1000,Wind Power,5750.0,0.04,750.0
+China,High,500,1000,Hydropower,3000.0,0.055,750.0
+China,High,500,1000,Biomass,3500.0,0.1,750.0
+China,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+China,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+China,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+China,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Japan,Low,100,200,Solar Power,18750.0,0.08,150.0
+Japan,Low,100,200,Wind Power,5750.0,0.04,150.0
+Japan,Low,100,200,Hydropower,3000.0,0.055,150.0
+Japan,Low,100,200,Biomass,3500.0,0.1,150.0
+Japan,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Japan,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Japan,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Japan,Medium,200,500,Biomass,3500.0,0.1,350.0
+Japan,High,500,1000,Solar Power,18750.0,0.08,750.0
+Japan,High,500,1000,Wind Power,5750.0,0.04,750.0
+Japan,High,500,1000,Hydropower,3000.0,0.055,750.0
+Japan,High,500,1000,Biomass,3500.0,0.1,750.0
+Japan,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Japan,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Japan,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Japan,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Brazil,Low,100,200,Solar Power,18750.0,0.08,150.0
+Brazil,Low,100,200,Wind Power,5750.0,0.04,150.0
+Brazil,Low,100,200,Hydropower,3000.0,0.055,150.0
+Brazil,Low,100,200,Biomass,3500.0,0.1,150.0
+Brazil,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Brazil,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Brazil,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Brazil,Medium,200,500,Biomass,3500.0,0.1,350.0
+Brazil,High,500,1000,Solar Power,18750.0,0.08,750.0
+Brazil,High,500,1000,Wind Power,5750.0,0.04,750.0
+Brazil,High,500,1000,Hydropower,3000.0,0.055,750.0
+Brazil,High,500,1000,Biomass,3500.0,0.1,750.0
+Brazil,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Brazil,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Brazil,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Brazil,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Russia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Russia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Russia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Russia,Low,100,200,Biomass,3500.0,0.1,150.0
+Russia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Russia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Russia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Russia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Russia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Russia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Russia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Russia,High,500,1000,Biomass,3500.0,0.1,750.0
+Russia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Russia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Russia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Russia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+South Africa,Low,100,200,Solar Power,18750.0,0.08,150.0
+South Africa,Low,100,200,Wind Power,5750.0,0.04,150.0
+South Africa,Low,100,200,Hydropower,3000.0,0.055,150.0
+South Africa,Low,100,200,Biomass,3500.0,0.1,150.0
+South Africa,Medium,200,500,Solar Power,18750.0,0.08,350.0
+South Africa,Medium,200,500,Wind Power,5750.0,0.04,350.0
+South Africa,Medium,200,500,Hydropower,3000.0,0.055,350.0
+South Africa,Medium,200,500,Biomass,3500.0,0.1,350.0
+South Africa,High,500,1000,Solar Power,18750.0,0.08,750.0
+South Africa,High,500,1000,Wind Power,5750.0,0.04,750.0
+South Africa,High,500,1000,Hydropower,3000.0,0.055,750.0
+South Africa,High,500,1000,Biomass,3500.0,0.1,750.0
+South Africa,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+South Africa,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+South Africa,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+South Africa,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Italy,Low,100,200,Solar Power,18750.0,0.08,150.0
+Italy,Low,100,200,Wind Power,5750.0,0.04,150.0
+Italy,Low,100,200,Hydropower,3000.0,0.055,150.0
+Italy,Low,100,200,Biomass,3500.0,0.1,150.0
+Italy,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Italy,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Italy,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Italy,Medium,200,500,Biomass,3500.0,0.1,350.0
+Italy,High,500,1000,Solar Power,18750.0,0.08,750.0
+Italy,High,500,1000,Wind Power,5750.0,0.04,750.0
+Italy,High,500,1000,Hydropower,3000.0,0.055,750.0
+Italy,High,500,1000,Biomass,3500.0,0.1,750.0
+Italy,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Italy,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Italy,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Italy,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Mexico,Low,100,200,Solar Power,18750.0,0.08,150.0
+Mexico,Low,100,200,Wind Power,5750.0,0.04,150.0
+Mexico,Low,100,200,Hydropower,3000.0,0.055,150.0
+Mexico,Low,100,200,Biomass,3500.0,0.1,150.0
+Mexico,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Mexico,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Mexico,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Mexico,Medium,200,500,Biomass,3500.0,0.1,350.0
+Mexico,High,500,1000,Solar Power,18750.0,0.08,750.0
+Mexico,High,500,1000,Wind Power,5750.0,0.04,750.0
+Mexico,High,500,1000,Hydropower,3000.0,0.055,750.0
+Mexico,High,500,1000,Biomass,3500.0,0.1,750.0
+Mexico,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Mexico,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Mexico,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Mexico,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+South Korea,Low,100,200,Solar Power,18750.0,0.08,150.0
+South Korea,Low,100,200,Wind Power,5750.0,0.04,150.0
+South Korea,Low,100,200,Hydropower,3000.0,0.055,150.0
+South Korea,Low,100,200,Biomass,3500.0,0.1,150.0
+South Korea,Medium,200,500,Solar Power,18750.0,0.08,350.0
+South Korea,Medium,200,500,Wind Power,5750.0,0.04,350.0
+South Korea,Medium,200,500,Hydropower,3000.0,0.055,350.0
+South Korea,Medium,200,500,Biomass,3500.0,0.1,350.0
+South Korea,High,500,1000,Solar Power,18750.0,0.08,750.0
+South Korea,High,500,1000,Wind Power,5750.0,0.04,750.0
+South Korea,High,500,1000,Hydropower,3000.0,0.055,750.0
+South Korea,High,500,1000,Biomass,3500.0,0.1,750.0
+South Korea,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+South Korea,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+South Korea,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+South Korea,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Spain,Low,100,200,Solar Power,18750.0,0.08,150.0
+Spain,Low,100,200,Wind Power,5750.0,0.04,150.0
+Spain,Low,100,200,Hydropower,3000.0,0.055,150.0
+Spain,Low,100,200,Biomass,3500.0,0.1,150.0
+Spain,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Spain,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Spain,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Spain,Medium,200,500,Biomass,3500.0,0.1,350.0
+Spain,High,500,1000,Solar Power,18750.0,0.08,750.0
+Spain,High,500,1000,Wind Power,5750.0,0.04,750.0
+Spain,High,500,1000,Hydropower,3000.0,0.055,750.0
+Spain,High,500,1000,Biomass,3500.0,0.1,750.0
+Spain,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Spain,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Spain,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Spain,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Indonesia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Indonesia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Indonesia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Indonesia,Low,100,200,Biomass,3500.0,0.1,150.0
+Indonesia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Indonesia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Indonesia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Indonesia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Indonesia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Indonesia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Indonesia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Indonesia,High,500,1000,Biomass,3500.0,0.1,750.0
+Indonesia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Indonesia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Indonesia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Indonesia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Turkey,Low,100,200,Solar Power,18750.0,0.08,150.0
+Turkey,Low,100,200,Wind Power,5750.0,0.04,150.0
+Turkey,Low,100,200,Hydropower,3000.0,0.055,150.0
+Turkey,Low,100,200,Biomass,3500.0,0.1,150.0
+Turkey,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Turkey,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Turkey,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Turkey,Medium,200,500,Biomass,3500.0,0.1,350.0
+Turkey,High,500,1000,Solar Power,18750.0,0.08,750.0
+Turkey,High,500,1000,Wind Power,5750.0,0.04,750.0
+Turkey,High,500,1000,Hydropower,3000.0,0.055,750.0
+Turkey,High,500,1000,Biomass,3500.0,0.1,750.0
+Turkey,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Turkey,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Turkey,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Turkey,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Saudi Arabia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Saudi Arabia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Saudi Arabia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Saudi Arabia,Low,100,200,Biomass,3500.0,0.1,150.0
+Saudi Arabia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Saudi Arabia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Saudi Arabia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Saudi Arabia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Saudi Arabia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Saudi Arabia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Saudi Arabia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Saudi Arabia,High,500,1000,Biomass,3500.0,0.1,750.0
+Saudi Arabia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Saudi Arabia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Saudi Arabia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Saudi Arabia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Netherlands,Low,100,200,Solar Power,18750.0,0.08,150.0
+Netherlands,Low,100,200,Wind Power,5750.0,0.04,150.0
+Netherlands,Low,100,200,Hydropower,3000.0,0.055,150.0
+Netherlands,Low,100,200,Biomass,3500.0,0.1,150.0
+Netherlands,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Netherlands,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Netherlands,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Netherlands,Medium,200,500,Biomass,3500.0,0.1,350.0
+Netherlands,High,500,1000,Solar Power,18750.0,0.08,750.0
+Netherlands,High,500,1000,Wind Power,5750.0,0.04,750.0
+Netherlands,High,500,1000,Hydropower,3000.0,0.055,750.0
+Netherlands,High,500,1000,Biomass,3500.0,0.1,750.0
+Netherlands,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Netherlands,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Netherlands,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Netherlands,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Sweden,Low,100,200,Solar Power,18750.0,0.08,150.0
+Sweden,Low,100,200,Wind Power,5750.0,0.04,150.0
+Sweden,Low,100,200,Hydropower,3000.0,0.055,150.0
+Sweden,Low,100,200,Biomass,3500.0,0.1,150.0
+Sweden,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Sweden,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Sweden,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Sweden,Medium,200,500,Biomass,3500.0,0.1,350.0
+Sweden,High,500,1000,Solar Power,18750.0,0.08,750.0
+Sweden,High,500,1000,Wind Power,5750.0,0.04,750.0
+Sweden,High,500,1000,Hydropower,3000.0,0.055,750.0
+Sweden,High,500,1000,Biomass,3500.0,0.1,750.0
+Sweden,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Sweden,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Sweden,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Sweden,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Switzerland,Low,100,200,Solar Power,18750.0,0.08,150.0
+Switzerland,Low,100,200,Wind Power,5750.0,0.04,150.0
+Switzerland,Low,100,200,Hydropower,3000.0,0.055,150.0
+Switzerland,Low,100,200,Biomass,3500.0,0.1,150.0
+Switzerland,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Switzerland,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Switzerland,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Switzerland,Medium,200,500,Biomass,3500.0,0.1,350.0
+Switzerland,High,500,1000,Solar Power,18750.0,0.08,750.0
+Switzerland,High,500,1000,Wind Power,5750.0,0.04,750.0
+Switzerland,High,500,1000,Hydropower,3000.0,0.055,750.0
+Switzerland,High,500,1000,Biomass,3500.0,0.1,750.0
+Switzerland,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Switzerland,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Switzerland,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Switzerland,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Argentina,Low,100,200,Solar Power,18750.0,0.08,150.0
+Argentina,Low,100,200,Wind Power,5750.0,0.04,150.0
+Argentina,Low,100,200,Hydropower,3000.0,0.055,150.0
+Argentina,Low,100,200,Biomass,3500.0,0.1,150.0
+Argentina,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Argentina,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Argentina,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Argentina,Medium,200,500,Biomass,3500.0,0.1,350.0
+Argentina,High,500,1000,Solar Power,18750.0,0.08,750.0
+Argentina,High,500,1000,Wind Power,5750.0,0.04,750.0
+Argentina,High,500,1000,Hydropower,3000.0,0.055,750.0
+Argentina,High,500,1000,Biomass,3500.0,0.1,750.0
+Argentina,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Argentina,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Argentina,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Argentina,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Belgium,Low,100,200,Solar Power,18750.0,0.08,150.0
+Belgium,Low,100,200,Wind Power,5750.0,0.04,150.0
+Belgium,Low,100,200,Hydropower,3000.0,0.055,150.0
+Belgium,Low,100,200,Biomass,3500.0,0.1,150.0
+Belgium,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Belgium,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Belgium,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Belgium,Medium,200,500,Biomass,3500.0,0.1,350.0
+Belgium,High,500,1000,Solar Power,18750.0,0.08,750.0
+Belgium,High,500,1000,Wind Power,5750.0,0.04,750.0
+Belgium,High,500,1000,Hydropower,3000.0,0.055,750.0
+Belgium,High,500,1000,Biomass,3500.0,0.1,750.0
+Belgium,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Belgium,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Belgium,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Belgium,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Norway,Low,100,200,Solar Power,18750.0,0.08,150.0
+Norway,Low,100,200,Wind Power,5750.0,0.04,150.0
+Norway,Low,100,200,Hydropower,3000.0,0.055,150.0
+Norway,Low,100,200,Biomass,3500.0,0.1,150.0
+Norway,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Norway,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Norway,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Norway,Medium,200,500,Biomass,3500.0,0.1,350.0
+Norway,High,500,1000,Solar Power,18750.0,0.08,750.0
+Norway,High,500,1000,Wind Power,5750.0,0.04,750.0
+Norway,High,500,1000,Hydropower,3000.0,0.055,750.0
+Norway,High,500,1000,Biomass,3500.0,0.1,750.0
+Norway,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Norway,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Norway,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Norway,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Poland,Low,100,200,Solar Power,18750.0,0.08,150.0
+Poland,Low,100,200,Wind Power,5750.0,0.04,150.0
+Poland,Low,100,200,Hydropower,3000.0,0.055,150.0
+Poland,Low,100,200,Biomass,3500.0,0.1,150.0
+Poland,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Poland,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Poland,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Poland,Medium,200,500,Biomass,3500.0,0.1,350.0
+Poland,High,500,1000,Solar Power,18750.0,0.08,750.0
+Poland,High,500,1000,Wind Power,5750.0,0.04,750.0
+Poland,High,500,1000,Hydropower,3000.0,0.055,750.0
+Poland,High,500,1000,Biomass,3500.0,0.1,750.0
+Poland,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Poland,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Poland,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Poland,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Thailand,Low,100,200,Solar Power,18750.0,0.08,150.0
+Thailand,Low,100,200,Wind Power,5750.0,0.04,150.0
+Thailand,Low,100,200,Hydropower,3000.0,0.055,150.0
+Thailand,Low,100,200,Biomass,3500.0,0.1,150.0
+Thailand,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Thailand,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Thailand,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Thailand,Medium,200,500,Biomass,3500.0,0.1,350.0
+Thailand,High,500,1000,Solar Power,18750.0,0.08,750.0
+Thailand,High,500,1000,Wind Power,5750.0,0.04,750.0
+Thailand,High,500,1000,Hydropower,3000.0,0.055,750.0
+Thailand,High,500,1000,Biomass,3500.0,0.1,750.0
+Thailand,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Thailand,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Thailand,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Thailand,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Vietnam,Low,100,200,Solar Power,18750.0,0.08,150.0
+Vietnam,Low,100,200,Wind Power,5750.0,0.04,150.0
+Vietnam,Low,100,200,Hydropower,3000.0,0.055,150.0
+Vietnam,Low,100,200,Biomass,3500.0,0.1,150.0
+Vietnam,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Vietnam,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Vietnam,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Vietnam,Medium,200,500,Biomass,3500.0,0.1,350.0
+Vietnam,High,500,1000,Solar Power,18750.0,0.08,750.0
+Vietnam,High,500,1000,Wind Power,5750.0,0.04,750.0
+Vietnam,High,500,1000,Hydropower,3000.0,0.055,750.0
+Vietnam,High,500,1000,Biomass,3500.0,0.1,750.0
+Vietnam,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Vietnam,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Vietnam,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Vietnam,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Egypt,Low,100,200,Solar Power,18750.0,0.08,150.0
+Egypt,Low,100,200,Wind Power,5750.0,0.04,150.0
+Egypt,Low,100,200,Hydropower,3000.0,0.055,150.0
+Egypt,Low,100,200,Biomass,3500.0,0.1,150.0
+Egypt,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Egypt,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Egypt,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Egypt,Medium,200,500,Biomass,3500.0,0.1,350.0
+Egypt,High,500,1000,Solar Power,18750.0,0.08,750.0
+Egypt,High,500,1000,Wind Power,5750.0,0.04,750.0
+Egypt,High,500,1000,Hydropower,3000.0,0.055,750.0
+Egypt,High,500,1000,Biomass,3500.0,0.1,750.0
+Egypt,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Egypt,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Egypt,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Egypt,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Chile,Low,100,200,Solar Power,18750.0,0.08,150.0
+Chile,Low,100,200,Wind Power,5750.0,0.04,150.0
+Chile,Low,100,200,Hydropower,3000.0,0.055,150.0
+Chile,Low,100,200,Biomass,3500.0,0.1,150.0
+Chile,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Chile,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Chile,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Chile,Medium,200,500,Biomass,3500.0,0.1,350.0
+Chile,High,500,1000,Solar Power,18750.0,0.08,750.0
+Chile,High,500,1000,Wind Power,5750.0,0.04,750.0
+Chile,High,500,1000,Hydropower,3000.0,0.055,750.0
+Chile,High,500,1000,Biomass,3500.0,0.1,750.0
+Chile,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Chile,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Chile,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Chile,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Pakistan,Low,100,200,Solar Power,18750.0,0.08,150.0
+Pakistan,Low,100,200,Wind Power,5750.0,0.04,150.0
+Pakistan,Low,100,200,Hydropower,3000.0,0.055,150.0
+Pakistan,Low,100,200,Biomass,3500.0,0.1,150.0
+Pakistan,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Pakistan,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Pakistan,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Pakistan,Medium,200,500,Biomass,3500.0,0.1,350.0
+Pakistan,High,500,1000,Solar Power,18750.0,0.08,750.0
+Pakistan,High,500,1000,Wind Power,5750.0,0.04,750.0
+Pakistan,High,500,1000,Hydropower,3000.0,0.055,750.0
+Pakistan,High,500,1000,Biomass,3500.0,0.1,750.0
+Pakistan,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Pakistan,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Pakistan,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Pakistan,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Philippines,Low,100,200,Solar Power,18750.0,0.08,150.0
+Philippines,Low,100,200,Wind Power,5750.0,0.04,150.0
+Philippines,Low,100,200,Hydropower,3000.0,0.055,150.0
+Philippines,Low,100,200,Biomass,3500.0,0.1,150.0
+Philippines,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Philippines,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Philippines,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Philippines,Medium,200,500,Biomass,3500.0,0.1,350.0
+Philippines,High,500,1000,Solar Power,18750.0,0.08,750.0
+Philippines,High,500,1000,Wind Power,5750.0,0.04,750.0
+Philippines,High,500,1000,Hydropower,3000.0,0.055,750.0
+Philippines,High,500,1000,Biomass,3500.0,0.1,750.0
+Philippines,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Philippines,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Philippines,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Philippines,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Malaysia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Malaysia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Malaysia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Malaysia,Low,100,200,Biomass,3500.0,0.1,150.0
+Malaysia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Malaysia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Malaysia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Malaysia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Malaysia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Malaysia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Malaysia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Malaysia,High,500,1000,Biomass,3500.0,0.1,750.0
+Malaysia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Malaysia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Malaysia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Malaysia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Israel,Low,100,200,Solar Power,18750.0,0.08,150.0
+Israel,Low,100,200,Wind Power,5750.0,0.04,150.0
+Israel,Low,100,200,Hydropower,3000.0,0.055,150.0
+Israel,Low,100,200,Biomass,3500.0,0.1,150.0
+Israel,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Israel,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Israel,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Israel,Medium,200,500,Biomass,3500.0,0.1,350.0
+Israel,High,500,1000,Solar Power,18750.0,0.08,750.0
+Israel,High,500,1000,Wind Power,5750.0,0.04,750.0
+Israel,High,500,1000,Hydropower,3000.0,0.055,750.0
+Israel,High,500,1000,Biomass,3500.0,0.1,750.0
+Israel,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Israel,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Israel,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Israel,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Singapore,Low,100,200,Solar Power,18750.0,0.08,150.0
+Singapore,Low,100,200,Wind Power,5750.0,0.04,150.0
+Singapore,Low,100,200,Hydropower,3000.0,0.055,150.0
+Singapore,Low,100,200,Biomass,3500.0,0.1,150.0
+Singapore,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Singapore,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Singapore,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Singapore,Medium,200,500,Biomass,3500.0,0.1,350.0
+Singapore,High,500,1000,Solar Power,18750.0,0.08,750.0
+Singapore,High,500,1000,Wind Power,5750.0,0.04,750.0
+Singapore,High,500,1000,Hydropower,3000.0,0.055,750.0
+Singapore,High,500,1000,Biomass,3500.0,0.1,750.0
+Singapore,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Singapore,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Singapore,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Singapore,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+New Zealand,Low,100,200,Solar Power,18750.0,0.08,150.0
+New Zealand,Low,100,200,Wind Power,5750.0,0.04,150.0
+New Zealand,Low,100,200,Hydropower,3000.0,0.055,150.0
+New Zealand,Low,100,200,Biomass,3500.0,0.1,150.0
+New Zealand,Medium,200,500,Solar Power,18750.0,0.08,350.0
+New Zealand,Medium,200,500,Wind Power,5750.0,0.04,350.0
+New Zealand,Medium,200,500,Hydropower,3000.0,0.055,350.0
+New Zealand,Medium,200,500,Biomass,3500.0,0.1,350.0
+New Zealand,High,500,1000,Solar Power,18750.0,0.08,750.0
+New Zealand,High,500,1000,Wind Power,5750.0,0.04,750.0
+New Zealand,High,500,1000,Hydropower,3000.0,0.055,750.0
+New Zealand,High,500,1000,Biomass,3500.0,0.1,750.0
+New Zealand,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+New Zealand,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+New Zealand,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+New Zealand,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Portugal,Low,100,200,Solar Power,18750.0,0.08,150.0
+Portugal,Low,100,200,Wind Power,5750.0,0.04,150.0
+Portugal,Low,100,200,Hydropower,3000.0,0.055,150.0
+Portugal,Low,100,200,Biomass,3500.0,0.1,150.0
+Portugal,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Portugal,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Portugal,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Portugal,Medium,200,500,Biomass,3500.0,0.1,350.0
+Portugal,High,500,1000,Solar Power,18750.0,0.08,750.0
+Portugal,High,500,1000,Wind Power,5750.0,0.04,750.0
+Portugal,High,500,1000,Hydropower,3000.0,0.055,750.0
+Portugal,High,500,1000,Biomass,3500.0,0.1,750.0
+Portugal,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Portugal,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Portugal,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Portugal,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Greece,Low,100,200,Solar Power,18750.0,0.08,150.0
+Greece,Low,100,200,Wind Power,5750.0,0.04,150.0
+Greece,Low,100,200,Hydropower,3000.0,0.055,150.0
+Greece,Low,100,200,Biomass,3500.0,0.1,150.0
+Greece,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Greece,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Greece,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Greece,Medium,200,500,Biomass,3500.0,0.1,350.0
+Greece,High,500,1000,Solar Power,18750.0,0.08,750.0
+Greece,High,500,1000,Wind Power,5750.0,0.04,750.0
+Greece,High,500,1000,Hydropower,3000.0,0.055,750.0
+Greece,High,500,1000,Biomass,3500.0,0.1,750.0
+Greece,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Greece,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Greece,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Greece,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Czech Republic,Low,100,200,Solar Power,18750.0,0.08,150.0
+Czech Republic,Low,100,200,Wind Power,5750.0,0.04,150.0
+Czech Republic,Low,100,200,Hydropower,3000.0,0.055,150.0
+Czech Republic,Low,100,200,Biomass,3500.0,0.1,150.0
+Czech Republic,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Czech Republic,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Czech Republic,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Czech Republic,Medium,200,500,Biomass,3500.0,0.1,350.0
+Czech Republic,High,500,1000,Solar Power,18750.0,0.08,750.0
+Czech Republic,High,500,1000,Wind Power,5750.0,0.04,750.0
+Czech Republic,High,500,1000,Hydropower,3000.0,0.055,750.0
+Czech Republic,High,500,1000,Biomass,3500.0,0.1,750.0
+Czech Republic,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Czech Republic,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Czech Republic,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Czech Republic,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Hungary,Low,100,200,Solar Power,18750.0,0.08,150.0
+Hungary,Low,100,200,Wind Power,5750.0,0.04,150.0
+Hungary,Low,100,200,Hydropower,3000.0,0.055,150.0
+Hungary,Low,100,200,Biomass,3500.0,0.1,150.0
+Hungary,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Hungary,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Hungary,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Hungary,Medium,200,500,Biomass,3500.0,0.1,350.0
+Hungary,High,500,1000,Solar Power,18750.0,0.08,750.0
+Hungary,High,500,1000,Wind Power,5750.0,0.04,750.0
+Hungary,High,500,1000,Hydropower,3000.0,0.055,750.0
+Hungary,High,500,1000,Biomass,3500.0,0.1,750.0
+Hungary,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Hungary,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Hungary,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Hungary,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Romania,Low,100,200,Solar Power,18750.0,0.08,150.0
+Romania,Low,100,200,Wind Power,5750.0,0.04,150.0
+Romania,Low,100,200,Hydropower,3000.0,0.055,150.0
+Romania,Low,100,200,Biomass,3500.0,0.1,150.0
+Romania,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Romania,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Romania,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Romania,Medium,200,500,Biomass,3500.0,0.1,350.0
+Romania,High,500,1000,Solar Power,18750.0,0.08,750.0
+Romania,High,500,1000,Wind Power,5750.0,0.04,750.0
+Romania,High,500,1000,Hydropower,3000.0,0.055,750.0
+Romania,High,500,1000,Biomass,3500.0,0.1,750.0
+Romania,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Romania,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Romania,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Romania,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Finland,Low,100,200,Solar Power,18750.0,0.08,150.0
+Finland,Low,100,200,Wind Power,5750.0,0.04,150.0
+Finland,Low,100,200,Hydropower,3000.0,0.055,150.0
+Finland,Low,100,200,Biomass,3500.0,0.1,150.0
+Finland,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Finland,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Finland,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Finland,Medium,200,500,Biomass,3500.0,0.1,350.0
+Finland,High,500,1000,Solar Power,18750.0,0.08,750.0
+Finland,High,500,1000,Wind Power,5750.0,0.04,750.0
+Finland,High,500,1000,Hydropower,3000.0,0.055,750.0
+Finland,High,500,1000,Biomass,3500.0,0.1,750.0
+Finland,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Finland,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Finland,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Finland,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Denmark,Low,100,200,Solar Power,18750.0,0.08,150.0
+Denmark,Low,100,200,Wind Power,5750.0,0.04,150.0
+Denmark,Low,100,200,Hydropower,3000.0,0.055,150.0
+Denmark,Low,100,200,Biomass,3500.0,0.1,150.0
+Denmark,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Denmark,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Denmark,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Denmark,Medium,200,500,Biomass,3500.0,0.1,350.0
+Denmark,High,500,1000,Solar Power,18750.0,0.08,750.0
+Denmark,High,500,1000,Wind Power,5750.0,0.04,750.0
+Denmark,High,500,1000,Hydropower,3000.0,0.055,750.0
+Denmark,High,500,1000,Biomass,3500.0,0.1,750.0
+Denmark,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Denmark,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Denmark,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Denmark,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Ireland,Low,100,200,Solar Power,18750.0,0.08,150.0
+Ireland,Low,100,200,Wind Power,5750.0,0.04,150.0
+Ireland,Low,100,200,Hydropower,3000.0,0.055,150.0
+Ireland,Low,100,200,Biomass,3500.0,0.1,150.0
+Ireland,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Ireland,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Ireland,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Ireland,Medium,200,500,Biomass,3500.0,0.1,350.0
+Ireland,High,500,1000,Solar Power,18750.0,0.08,750.0
+Ireland,High,500,1000,Wind Power,5750.0,0.04,750.0
+Ireland,High,500,1000,Hydropower,3000.0,0.055,750.0
+Ireland,High,500,1000,Biomass,3500.0,0.1,750.0
+Ireland,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Ireland,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Ireland,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Ireland,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Colombia,Low,100,200,Solar Power,18750.0,0.08,150.0
+Colombia,Low,100,200,Wind Power,5750.0,0.04,150.0
+Colombia,Low,100,200,Hydropower,3000.0,0.055,150.0
+Colombia,Low,100,200,Biomass,3500.0,0.1,150.0
+Colombia,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Colombia,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Colombia,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Colombia,Medium,200,500,Biomass,3500.0,0.1,350.0
+Colombia,High,500,1000,Solar Power,18750.0,0.08,750.0
+Colombia,High,500,1000,Wind Power,5750.0,0.04,750.0
+Colombia,High,500,1000,Hydropower,3000.0,0.055,750.0
+Colombia,High,500,1000,Biomass,3500.0,0.1,750.0
+Colombia,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Colombia,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Colombia,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Colombia,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Bangladesh,Low,100,200,Solar Power,18750.0,0.08,150.0
+Bangladesh,Low,100,200,Wind Power,5750.0,0.04,150.0
+Bangladesh,Low,100,200,Hydropower,3000.0,0.055,150.0
+Bangladesh,Low,100,200,Biomass,3500.0,0.1,150.0
+Bangladesh,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Bangladesh,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Bangladesh,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Bangladesh,Medium,200,500,Biomass,3500.0,0.1,350.0
+Bangladesh,High,500,1000,Solar Power,18750.0,0.08,750.0
+Bangladesh,High,500,1000,Wind Power,5750.0,0.04,750.0
+Bangladesh,High,500,1000,Hydropower,3000.0,0.055,750.0
+Bangladesh,High,500,1000,Biomass,3500.0,0.1,750.0
+Bangladesh,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Bangladesh,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Bangladesh,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Bangladesh,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Ukraine,Low,100,200,Solar Power,18750.0,0.08,150.0
+Ukraine,Low,100,200,Wind Power,5750.0,0.04,150.0
+Ukraine,Low,100,200,Hydropower,3000.0,0.055,150.0
+Ukraine,Low,100,200,Biomass,3500.0,0.1,150.0
+Ukraine,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Ukraine,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Ukraine,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Ukraine,Medium,200,500,Biomass,3500.0,0.1,350.0
+Ukraine,High,500,1000,Solar Power,18750.0,0.08,750.0
+Ukraine,High,500,1000,Wind Power,5750.0,0.04,750.0
+Ukraine,High,500,1000,Hydropower,3000.0,0.055,750.0
+Ukraine,High,500,1000,Biomass,3500.0,0.1,750.0
+Ukraine,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Ukraine,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Ukraine,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Ukraine,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Peru,Low,100,200,Solar Power,18750.0,0.08,150.0
+Peru,Low,100,200,Wind Power,5750.0,0.04,150.0
+Peru,Low,100,200,Hydropower,3000.0,0.055,150.0
+Peru,Low,100,200,Biomass,3500.0,0.1,150.0
+Peru,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Peru,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Peru,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Peru,Medium,200,500,Biomass,3500.0,0.1,350.0
+Peru,High,500,1000,Solar Power,18750.0,0.08,750.0
+Peru,High,500,1000,Wind Power,5750.0,0.04,750.0
+Peru,High,500,1000,Hydropower,3000.0,0.055,750.0
+Peru,High,500,1000,Biomass,3500.0,0.1,750.0
+Peru,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Peru,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Peru,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Peru,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Venezuela,Low,100,200,Solar Power,18750.0,0.08,150.0
+Venezuela,Low,100,200,Wind Power,5750.0,0.04,150.0
+Venezuela,Low,100,200,Hydropower,3000.0,0.055,150.0
+Venezuela,Low,100,200,Biomass,3500.0,0.1,150.0
+Venezuela,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Venezuela,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Venezuela,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Venezuela,Medium,200,500,Biomass,3500.0,0.1,350.0
+Venezuela,High,500,1000,Solar Power,18750.0,0.08,750.0
+Venezuela,High,500,1000,Wind Power,5750.0,0.04,750.0
+Venezuela,High,500,1000,Hydropower,3000.0,0.055,750.0
+Venezuela,High,500,1000,Biomass,3500.0,0.1,750.0
+Venezuela,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Venezuela,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Venezuela,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Venezuela,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
+Nigeria,Low,100,200,Solar Power,18750.0,0.08,150.0
+Nigeria,Low,100,200,Wind Power,5750.0,0.04,150.0
+Nigeria,Low,100,200,Hydropower,3000.0,0.055,150.0
+Nigeria,Low,100,200,Biomass,3500.0,0.1,150.0
+Nigeria,Medium,200,500,Solar Power,18750.0,0.08,350.0
+Nigeria,Medium,200,500,Wind Power,5750.0,0.04,350.0
+Nigeria,Medium,200,500,Hydropower,3000.0,0.055,350.0
+Nigeria,Medium,200,500,Biomass,3500.0,0.1,350.0
+Nigeria,High,500,1000,Solar Power,18750.0,0.08,750.0
+Nigeria,High,500,1000,Wind Power,5750.0,0.04,750.0
+Nigeria,High,500,1000,Hydropower,3000.0,0.055,750.0
+Nigeria,High,500,1000,Biomass,3500.0,0.1,750.0
+Nigeria,Very High,1000,2000,Solar Power,18750.0,0.08,1500.0
+Nigeria,Very High,1000,2000,Wind Power,5750.0,0.04,1500.0
+Nigeria,Very High,1000,2000,Hydropower,3000.0,0.055,1500.0
+Nigeria,Very High,1000,2000,Biomass,3500.0,0.1,1500.0
