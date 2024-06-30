@@ -1,0 +1,9 @@
+Provider,Energy_Source,Cost_per_kWh,Appliance
+SolarCo,Solar,0.08,"Fan, Lights"
+WindPower,Wind,0.07,"Air Conditioner, Refrigerator"
+BioEnergy,Biomass,0.09,"Oven, Dishwasher"
+GeoEnergy,Geothermal,0.1,"Air Conditioner, Fan"
+HydroFlow,Hydropower,0.06,"Washing Machine, Lights"
+HybridEnergy,Hybrid (Solar & Wind),0.07,"Air Conditioner, Fan, Lights"
+FutureEnergy,Hydrogen Fuel Cells,0.11,"Refrigerator, Oven"
+EcoFriendly,Waste to Energy,0.09,"Dishwasher, Washing Machine"

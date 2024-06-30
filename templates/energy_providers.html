@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Energy Providers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555555;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alternate Energy Providers</h1>
+        <p>Select a provider for User ID: {{ user_id }}</p>
+        <form action="{{ url_for('select_provider') }}" method="POST">
+            <input type="hidden" name="user_id" value="{{ user_id }}">
+            <input type="hidden" name="current_energy_cost_per_kwh" value="{{ current_energy_cost_per_kwh }}">
+            
+            <label for="provider">Select an energy provider:</label>
+            <select name="provider" id="provider">
+                {% for provider in providers %}
+                    <option value="{{ provider.Provider }}">{{ provider.Provider }}</option>
+                {% endfor %}
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Results</h2>
+        <p>User ID: {{ user_id }}</p>
+        <p>Country: {{ country }}</p>
+        <p>Month: {{ month }}</p>
+        <p>Year: {{ year }}</p>
+        <p>Date: {{ date }}</p>
+        <p>Appliances: {{ ', '.join(appliances) }}</p>
+        <p>Total Predicted Energy Consumption: {{ total_prediction }} kWh</p>
+        <p>Appliance with Maximum Energy Consumption: {{ max_energy_appliance }} ({{ max_energy_consumption }} kWh)</p>
+        <a href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+</body>
+</html>

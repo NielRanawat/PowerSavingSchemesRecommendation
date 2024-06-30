@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        p {
+            margin-top: 10px;
+            color: #555555;
+        }
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        label {
+            margin-right: 10px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 16px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result for User ID: {{ user_id }}</h1>
+        <p>Country: {{ country }}</p>
+        <p>Month: {{ month }}</p>
+        <p>Year: {{ year }}</p>
+        <p>Date: {{ date }}</p>
+        <p>Appliances: {{ appliances }}</p>
+        <p>Total Predicted Energy Consumption: {{ total_prediction }} kWh</p>
+        <p>Appliance with Max Energy Consumption: {{ max_energy_appliance }} ({{ max_energy_consumption }} kWh)</p>
+        <p>Current Energy Cost per kWh: ${{ current_energy_cost_per_kwh }}</p>
+        <p>Applicable Government Schemes: {{ applicable_schemes }}</p>
+
+        <a href="{{ url_for('history', user_id=user_id) }}">View Historical Data</a>
+
+        <form action="{{ url_for('alternate_energy') }}" method="POST">
+            <input type="hidden" name="user_id" value="{{ user_id }}">
+            <input type="hidden" name="current_energy_cost_per_kwh" value="{{ current_energy_cost_per_kwh }}">
+            <label>Do you want to view alternate energy sources?</label>
+            <input type="radio" id="yes" name="alternate_energy" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="alternate_energy" value="no">
+            <label for="no">No</label>
+            <button type="submit">Submit</button>
+        </form>
+
+        
+    </div>
+</body>
+</html>

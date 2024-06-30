@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Benefits Applied</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #007bff;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .benefit-item {
+            margin-bottom: 10px;
+        }
+        .benefit-item strong {
+            color: #333333;
+        }
+        .back-link {
+            display: block;
+            margin-top: 30px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Visa Benefits Applied</h2>
+        <p class="benefit-item">
+            <strong>Discount Amount:</strong> ${{ discount_amount }}
+        </p>
+        <p class="benefit-item">
+            <strong>Cashback Amount:</strong> ${{ cashback_amount }}
+        </p>
+        <p class="benefit-item">
+            <strong>Reward Points:</strong> {{ reward_points }}
+        </p>
+        <p class="benefit-item">
+            <strong>Exclusive Offers:</strong> {{ exclusive_offer }}
+        </p>
+        <p class="benefit-item">
+            <strong>Final Energy Cost with Visa:</strong> ${{ final_energy_cost_with_visa }}
+        </p>
+        <a href="{{ url_for('index') }}" class="back-link">Back to Home</a>
+    </div>
+</body>
+</html>

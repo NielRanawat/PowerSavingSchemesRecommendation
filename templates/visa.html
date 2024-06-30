@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visa Benefits</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Visa Benefits</h2>
+        {% if visa_benefits %}
+        <ul>
+            <li>Discount: {{ visa_benefits.discount * 100 }}%</li>
+            <li>Cashback: {{ visa_benefits.cashback * 100 }}%</li>
+            <li>Reward Points: {{ visa_benefits.reward_points }}</li>
+            <li>Exclusive Offers: {{ visa_benefits.exclusive_offers }}</li>
+        </ul>
+        {% else %}
+        <p>No Visa benefits applied.</p>
+        {% endif %}
+        <a href="{{ url_for('index') }}">Back to Home</a>
+    </div>
+</body>
+</html>

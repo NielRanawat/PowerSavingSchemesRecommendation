@@ -1,0 +1,23 @@
+User_ID,Country,Month,Year,Date,Appliances,Predicted_Energy_kWh
+akku,Japan,Feb,2020,2020-02-22,"Fan, Lights",95.4547009121978
+akku,Japan,Jan,2020,2020-01-01,"Fan, Dishwasher",103.01902689920225
+akku,Japan,Jan,2020,2020-01-21,"Fan, Oven, Dishwasher",203.85845092090057
+akku,Japan,Jan,2020,2020-01-23,"Fan, Lights, Dishwasher",167.64117853092108
+akku,Japan,Feb,2020,2020-01-2,"Dishwasher, Oven",170.05641651288954
+akku,Japan,Feb,2020,2020-02-14,"Fan, Dishwasher, Oven",201.8126149994424
+akku,Japan,Jan,2020,2020-01-01,Fan,31.95473599586308
+akku,Japan,Jan,2020,2020-01-01,Fan,31.95473599586308
+akku,Japan,Feb,2020,2020-01-10,"Fan, Lights",95.4547009121978
+akku,Japan,Feb,2020,2020-01-10,"Fan, Lights",95.4547009121978
+akku,Japan,Feb,2020,2020-01-10,Dishwasher,70.14064169726517
+akku,Japan,Feb,2020,2020-01-10,Dishwasher,70.14064169726517
+akku,Japan,Feb,2020,2020-01-10,Dishwasher,70.14064169726517
+akku,Japan,Jan,2020,2020-01-01,Fan,31.95473599586308
+akku,Japan,Jan,2020,2020-01-01,Fan,31.95473599586308
+akku,Japan,Feb,2020,2020-02-24,"Dishwasher, Fan",101.89684018381804
+akku,Japan,Jan,2020,2020-01-01,Oven,100.83942402169836
+akku,Japan,Mar,2020,2020-03-21,"Fan, Oven",131.67197330217724
+akku,Japan,Jan,2020,2020-01-01,Oven,100.83942402169835
+akku,Japan,Jan,2020,2020-01-01,"Fan, Dishwasher",103.01902689920223
+akku,Japan,Jan,2020,2020-01-01,"Fan, Dishwasher, Oven",203.85845092090057
+akku,Japan,Jan,2020,2020-01-01,"Fan, Dishwasher",103.01902689920223
